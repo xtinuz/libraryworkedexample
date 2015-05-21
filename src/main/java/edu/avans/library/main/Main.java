@@ -27,6 +27,6 @@ public class Main {
     public static void main(String[] args) {
 
         MemberAdminUI ui = new MemberAdminUI(new MemberAdminManagerImpl());
-        ui.setVisible(true);
+        ui.setVisible(false);
     }
 }
